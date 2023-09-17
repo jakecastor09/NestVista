@@ -1,5 +1,7 @@
+import Navbar from './section/Navbar/Navbar';
+
 function App() {
-  return <h1 className='text-2xl text-slate-700 text-bold uppercase'>manok</h1>;
+  return <Navbar />;
 }
 
 export default App;

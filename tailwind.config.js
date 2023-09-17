@@ -13,6 +13,9 @@ export default {
         infield: '#B8B8B8',
         disable: '#EBEBEB',
       },
+      fontFamily: {
+        sans: ['Nunito', 'sans-serif'],
+      },
     },
   },
   plugins: [],
