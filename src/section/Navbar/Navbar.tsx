@@ -17,7 +17,7 @@ const Navbar = () => {
             <li>Contact Us</li>
             <li>Pages</li>
           </ul>
-          <button className='px-6 py-2 rounded-full bg-pryGreen text-white font-medium'>
+          <button className='px-6 py-2 rounded-full bg-pryGreen text-white font-medium hover:opacity-90 duration-200'>
             Get a Quote
           </button>
         </div>

@@ -12,7 +12,7 @@ const HeroForm = () => {
           placeholder='Search Here'
         />
       </div>
-      <button className='rounded-full text-white bg-pryGreen font-semibold px-8 py-3'>
+      <button className='rounded-full text-white bg-pryGreen font-semibold px-8 py-3 hover:opacity-90 duration-200'>
         Search
       </button>
     </div>
