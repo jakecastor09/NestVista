@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section id='hero'>
       <Container>
-        <div className='flex flex-col lg:flex-row lg:gap-4 xl:gap-32'>
+        <div className='flex flex-col lg:flex-row lg:gap-4 xl:gap-24'>
           <div>
             <HeroHeader />
             <HeroForm />
