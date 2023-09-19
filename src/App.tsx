@@ -1,3 +1,4 @@
+import CallToAction from './section/CTA/CallToAction';
 import Choose from './section/Choose/Choose';
 import Featured from './section/Featured/Featured';
 import Hero from './section/Hero/Hero';
@@ -16,6 +17,7 @@ function App() {
       <Step />
       <Choose />
       <Testimonial />
+      <CallToAction />
     </>
   );
 }
