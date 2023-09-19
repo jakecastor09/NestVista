@@ -1,4 +1,4 @@
-import Container from '../Container/Container';
+import Container from '../../components/Container';
 import cta1 from '../../assets/cta-1.webp';
 import cta2 from '../../assets/cta-2.webp';
 import cta3 from '../../assets/cta-3.webp';

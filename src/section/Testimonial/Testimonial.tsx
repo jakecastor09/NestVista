@@ -1,4 +1,4 @@
-import Container from '../Container/Container';
+import Container from '../../components/Container';
 import TestimonialHeader from './TestimonialHeader';
 import TestimonialList from './TestimonialList';
 

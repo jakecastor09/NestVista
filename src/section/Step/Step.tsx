@@ -1,4 +1,4 @@
-import Container from '../Container/Container';
+import Container from '../../components/Container';
 import StepDescription from './StepDescription';
 import StepHeader from './StepHeader';
 import StepItem from './StepItem';

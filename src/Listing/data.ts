@@ -1,0 +1,43 @@
+import list1 from '../assets/list-1.webp';
+export const dataListing = [
+  {
+    id: 1,
+    image: list1,
+    price: 2800,
+    name: 'Ataz Standard House',
+    address: 'Pluto Street, Indonesia',
+    square: 800,
+    bedroom: 2,
+    bathroom: 2,
+  },
+  {
+    id: 2,
+    image: list1,
+    price: 2800,
+    name: 'Ataz Standard House',
+    address: 'Pluto Street, Indonesia',
+    square: 800,
+    bedroom: 2,
+    bathroom: 2,
+  },
+  {
+    id: 3,
+    image: list1,
+    price: 2800,
+    name: 'Ataz Standard House',
+    address: 'Pluto Street, Indonesia',
+    square: 800,
+    bedroom: 2,
+    bathroom: 2,
+  },
+  {
+    id: 4,
+    image: list1,
+    price: 2800,
+    name: 'Ataz Standard House',
+    address: 'Pluto Street, Indonesia',
+    square: 800,
+    bedroom: 2,
+    bathroom: 2,
+  },
+];

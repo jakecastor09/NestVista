@@ -1,4 +1,4 @@
-import Container from '../Container/Container';
+import Container from '../../components/Container';
 import vision from '../../assets/vision.webp';
 import mission from '../../assets/mission.webp';
 const MissionVision = () => {

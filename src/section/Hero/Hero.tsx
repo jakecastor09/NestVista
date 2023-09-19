@@ -1,4 +1,4 @@
-import Container from '../Container/Container';
+import Container from '../../components/Container';
 import { HeroAchievement } from './HeroAchievement';
 import HeroForm from './HeroForm';
 import HeroHeader from './HeroHeader';

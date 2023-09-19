@@ -1,4 +1,4 @@
-import Container from '../Container/Container';
+import Container from './Container';
 import { FaLocationDot } from 'react-icons/fa6';
 import { IoCall } from 'react-icons/io5';
 import { MdEmail } from 'react-icons/md';

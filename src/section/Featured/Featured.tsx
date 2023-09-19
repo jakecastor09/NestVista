@@ -1,4 +1,4 @@
-import Container from '../Container/Container';
+import Container from '../../components/Container';
 import FeaturedHeader from './FeaturedHeader';
 import FeaturedItem from './FeaturedItem';
 import FeaturedItems from './FeaturedItems';

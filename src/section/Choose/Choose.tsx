@@ -1,4 +1,4 @@
-import Container from '../Container/Container';
+import Container from '../../components/Container';
 import ChooseHeader from './ChooseHeader';
 import ChooseList from './ChooseList';
 import chooseImg1 from '../../assets/choose-img-1.webp';
