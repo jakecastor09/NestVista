@@ -5,8 +5,8 @@ interface Props {
 }
 const ChooseItem = ({ title, description }: Props) => {
   return (
-    <div className='p-4 rounded-xl first:shadow-xl duration-200 md:max-w-2xl xl:max-w-lg'>
-      <div className='md:flex md:space-x-4'>
+    <div className='p-4 rounded-xl first:shadow-xl  duration-200 md:max-w-2xl xl:max-w-lg'>
+      <div className='md:flex md:space-x-4 '>
         <div className='md:mt-2'>
           <AiFillCheckCircle size='32px' />
         </div>

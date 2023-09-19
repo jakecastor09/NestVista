@@ -4,6 +4,7 @@ import Hero from './section/Hero/Hero';
 import MissionVision from './section/MissionVision/MissionVision';
 import Navbar from './section/Navbar/Navbar';
 import Step from './section/Step/Step';
+import Testimonial from './section/Testimonial/Testimonial';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <MissionVision />
       <Step />
       <Choose />
+      <Testimonial />
     </>
   );
 }
