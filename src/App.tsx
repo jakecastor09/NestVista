@@ -1,3 +1,4 @@
+import Choose from './section/Choose/Choose';
 import Featured from './section/Featured/Featured';
 import Hero from './section/Hero/Hero';
 import MissionVision from './section/MissionVision/MissionVision';
@@ -12,6 +13,7 @@ function App() {
       <Featured />
       <MissionVision />
       <Step />
+      <Choose />
     </>
   );
 }
