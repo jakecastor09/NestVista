@@ -8,12 +8,12 @@ const Choose = () => {
   return (
     <section id='choose'>
       <Container>
-        <div className='hidden space-x-12 lg:flex xl:space-x-16'>
+        <div className='space-x-12 lg:flex xl:space-x-16'>
           <div className='lg:w-1/2'>
             <ChooseHeader />
             <ChooseList />
           </div>
-          <div className='relative lg:w-1/2 '>
+          <div className='hidden lg:w-1/2 relative lg:block '>
             <img
               src={chooseImg1}
               alt=''
