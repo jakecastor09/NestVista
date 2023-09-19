@@ -1,6 +1,7 @@
 import CallToAction from './section/CTA/CallToAction';
 import Choose from './section/Choose/Choose';
 import Featured from './section/Featured/Featured';
+import Footer from './section/Footer/Footer';
 import Hero from './section/Hero/Hero';
 import MissionVision from './section/MissionVision/MissionVision';
 import Navbar from './section/Navbar/Navbar';
@@ -18,6 +19,7 @@ function App() {
       <Choose />
       <Testimonial />
       <CallToAction />
+      <Footer />
     </>
   );
 }
