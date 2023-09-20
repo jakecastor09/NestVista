@@ -2,7 +2,7 @@ import Container from '../../components/Container';
 
 const Hero = () => {
   return (
-    <section>
+    <section id='section-hero'>
       <Container>
         <h1 className='text-3xl text-center md:text-4xl lg:text-5xl'>
           Our Listing
