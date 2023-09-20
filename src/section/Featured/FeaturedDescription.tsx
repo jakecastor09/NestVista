@@ -8,9 +8,9 @@ const FeaturedDescription = () => {
         elevate your lifestyle.
       </p>
       <Link to={'/listing'} hrefLang=''>
-        <div className='border border-pryBlue bg-white rounded-full py-3 md:px-8 hover:bg-pryBlue hover:text-white duration-200'>
+        <button className=' border w-full border-pryBlue bg-white rounded-full py-3 md:px-8 hover:bg-pryBlue hover:text-white duration-200'>
           See More
-        </div>
+        </button>
       </Link>
     </div>
   );
