@@ -1,10 +1,10 @@
-import Container from '../components/Container';
+import Container from '../../components/Container';
 import DetailListingContent from './DetailListingContent';
 import DetailListingHeader from './DetailListingHeader';
 import DetailListingImages from './DetailListingImages';
 import DetailListingPrice from './DetailListingPrice';
 
-const DetailListing = () => {
+const Hero = () => {
   return (
     <section>
       <Container>
@@ -19,4 +19,4 @@ const DetailListing = () => {
   );
 };
 
-export default DetailListing;
+export default Hero;

@@ -1,6 +1,6 @@
-import details1 from '../assets/details-1.webp';
-import details2 from '../assets/details-2.webp';
-import details3 from '../assets/details-3.webp';
+import details1 from '../../assets/details-1.webp';
+import details2 from '../../assets/details-2.webp';
+import details3 from '../../assets/details-3.webp';
 
 const DetailListingImages = () => {
   return (
