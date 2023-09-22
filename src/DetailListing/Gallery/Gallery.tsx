@@ -5,11 +5,27 @@ import gallery4 from '../../assets/gallery-4.webp';
 
 const Gallery = () => {
   return (
-    <div className='grid grid-cols-2 gap-4 mt-4'>
-      <img src={gallery1} alt='' className='rounded-xl' />
-      <img src={gallery2} alt='' className='rounded-xl' />
-      <img src={gallery3} alt='' className='rounded-xl' />
-      <img src={gallery4} alt='' className='rounded-xl' />
+    <div className='grid grid-cols-2 gap-4 mt-8'>
+      <img
+        src={gallery1}
+        alt=''
+        className='rounded-xl max-h-[240px] w-full hover:scale-105 duration-200'
+      />
+      <img
+        src={gallery2}
+        alt=''
+        className='rounded-xl max-h-[240px] w-full hover:scale-105 duration-200'
+      />
+      <img
+        src={gallery3}
+        alt=''
+        className='rounded-xl max-h-[240px] w-full hover:scale-105 duration-200'
+      />
+      <img
+        src={gallery4}
+        alt=''
+        className='rounded-xl max-h-[240px] w-full hover:scale-105 duration-200'
+      />
     </div>
   );
 };

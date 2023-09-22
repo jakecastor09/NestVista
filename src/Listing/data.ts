@@ -36,8 +36,8 @@ export const dataListing: HomeData[] = [
   {
     id: 2,
     image: list2,
-    price: 2800,
-    name: 'Ataz Standard House',
+    price: 4800,
+    name: 'Qiri Minimalist House',
     address: 'Pluto Street, Indonesia',
     square: 800,
     bedroom: 2,

@@ -8,7 +8,7 @@ export interface Props {
 const ListingItem = ({ homeData }: Props) => {
   const navigate = useNavigate();
   const onHandleClick = () => {
-    const path = `details-${homeData.id}`;
+    const path = `/listing/details-${homeData.id}`;
     navigate(path);
   };
   return (

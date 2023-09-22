@@ -1,4 +1,7 @@
-const DetailListingPrice = () => {
+interface Props {
+  price: number | undefined;
+}
+const DetailListingPrice = ({ price }: Props) => {
   return (
     <div className='mt-8 lg:max-w-2xl'>
       <p className='leading-relaxed'>
@@ -8,7 +11,7 @@ const DetailListingPrice = () => {
       </p>
       <div className='flex flex-col md:flex-row md:items-center md:justify-between md:mt-4 lg:mt-8'>
         <h1 className='mt-4 text-3xl md:mt-0 md:text-4xl xl:text-5xl'>
-          ₱4,800-
+          ₱{price}-
         </h1>
         <button className='bg-pryGreen mt-4  text-white py-3 text-lg font-semibold text-center rounded-full md:px-4 md:mt-0'>
           Request Visit Now!
