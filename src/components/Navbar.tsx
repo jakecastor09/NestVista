@@ -9,7 +9,7 @@ const Navbar = () => {
           <div className='lg:hidden'>
             <GiHamburgerMenu size='24px' />
           </div>
-          <ul className='hidden space-x-8 lg:flex text-textBody'>
+          <ul className='hidden space-x-12 lg:flex text-textBody'>
             <li className='font-semibold text-textTitle'>
               <Link to={'/'}> Home</Link>
             </li>
@@ -20,7 +20,6 @@ const Navbar = () => {
             <li>Blog</li>
             <li>About</li>
             <li>Contact Us</li>
-            <li>Pages</li>
           </ul>
           <button className='px-6 py-2 rounded-full bg-pryGreen text-white font-medium hover:opacity-90 duration-200'>
             Get a Quote
