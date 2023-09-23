@@ -17,7 +17,7 @@ const Hero = () => {
           <img
             src={heroImg}
             alt=''
-            className='rounded-2xl mt-8 object-cover max-h-[480px] w-full lg:mt-0 lg:max-h-none lg:max-w-[448px] xl:max-w-[620px]'
+            className='rounded-2xl mt-8 object-cover max-h-[480px] w-full lg:mt-0 lg:max-h-none lg:max-w-[448px] xl:max-w-[500px]'
           />
         </div>
       </Container>
