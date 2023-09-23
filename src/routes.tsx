@@ -3,6 +3,7 @@ import DetailListingPage from './DetailListing/DetailListingPage/DetailListingPa
 import ListingPage from './Listing/ListingPage/ListingPage';
 import Layout from './layout/Layout';
 import HomePage from './section/HomePage/HomePage';
+import Services from './Services/ServicesPage/Services';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,7 @@ const router = createBrowserRouter([
             path: 'listing/:details',
             element: <DetailListingPage />,
           },
+          { path: 'services', element: <Services /> },
         ],
       },
     ],
