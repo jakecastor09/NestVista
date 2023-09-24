@@ -1,5 +1,3 @@
-import React from 'react';
-
 const TeamButton = () => {
   return (
     <div className='mt-8 flex flex-col md:flex-row md:justify-between md:items-center md:space-x-4'>
