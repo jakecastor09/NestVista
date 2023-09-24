@@ -2,11 +2,14 @@ import Container from '../../components/Container';
 import ProviderHeader from './ProviderHeader';
 import ProviderItem from './ProviderItem';
 import ProvidersItemsContainer from './ProvidersItemsContainer';
-const Provider = () => {
+interface Props {
+  title: string;
+}
+const Provider = ({ title }: Props) => {
   return (
     <section>
       <Container>
-        <ProviderHeader />
+        <ProviderHeader title={title} />
         <ProvidersItemsContainer>
           <ProviderItem />
           <ProviderItem />

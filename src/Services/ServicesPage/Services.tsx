@@ -10,7 +10,7 @@ const Services = () => {
       <Hero />
       <Featured />
       <RealState />
-      <Provider />
+      <Provider title='Our Providers' />
       <CallToAction />
     </main>
   );
