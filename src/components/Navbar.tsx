@@ -7,7 +7,9 @@ const Navbar = () => {
   return (
     <nav className='p-4 md:py-4 md:px-6 xl:p-6'>
       <div className='flex justify-between items-center'>
-        <h1 className='text-2xl'>NestVista</h1>
+        <Link to={'/'}>
+          <h1 className='text-2xl'>NestVista</h1>
+        </Link>
         <div className='space-x-4 flex items-center lg:space-x-8'>
           <div className='lg:hidden'>
             <GiHamburgerMenu size='24px' />
