@@ -8,7 +8,7 @@ const HeroForm = () => {
         </span>
         <input
           type='text'
-          className='outline:none text-textBody bg-transparent'
+          className='outline:none flex-1 text-textBody bg-transparent focus:outline-none'
           placeholder='Search Here'
         />
       </div>

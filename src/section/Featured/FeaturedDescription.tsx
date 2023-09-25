@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom';
 
 const FeaturedDescription = () => {
   return (
-    <div className='flex mt-8 flex-col space-y-4 md:space-y-0 md:flex-row md:items-center md:justify-between '>
-      <p className='leading-relaxed md:max-w-lg lg:max-w-full'>
+    <div className='flex mt-8 flex-col space-y-4 md:mt-12 md:space-y-0 md:flex-row md:items-center md:justify-between '>
+      <p className='leading-loose md:max-w-lg lg:max-w-full'>
         Explore a world of possibilities with our stunning homes designed to
         elevate your lifestyle.
       </p>

@@ -29,7 +29,7 @@ const MissionVision = () => {
               alt=''
               className='rounded-xl md:mt-6 h-2/3 object-cover'
             />
-            <div className='mt-4'>
+            <div className='mt-4 lg:mt-8'>
               <h1 className='text-3xl xl:text-4xl'>Our Mission</h1>
               <p className='leading-loose mt-2 xl:mt-4'>
                 Our mission is to connect individuals and families with their
